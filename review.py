@@ -45,9 +45,25 @@ print(type(type_casting))
 # example()
 # print(f"gloabl {k}")
 
-fahim = 7
-def key():
-    global fahim
-    fahim = 6
-key()
-print(fahim)
+# fahim = 7
+# def key():
+#     global fahim
+#     fahim = 6
+# key()
+# print(fahim)
+
+
+# data type
+# print(type(5))
+# print(type(5.5))
+# print(type("string"))
+# print(type(5+9j))
+# print(type(True))
+# print(type({4,5,6}))
+# print(type(["salam",8,9.8,"a"]))
+# print(type({"name":"salam","age":23}))
+# print(type(frozenset({4,3,5})))
+
+# random module
+import random
+print(random.randrange(1,20))
