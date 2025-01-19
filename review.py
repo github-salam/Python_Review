@@ -65,5 +65,11 @@ print(type(type_casting))
 # print(type(frozenset({4,3,5})))
 
 # random module
-import random
-print(random.randrange(1,20))
+# import random
+# print(random.randrange(1,20))
+
+# type casting
+print("int to float" , f"{float(5)}")
+print("float to int", f"{int(5.9)}")
+print("float to string",f"{str(8.9)}")
+# means we can use constructor for casting one to another data type!!
