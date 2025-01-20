@@ -74,40 +74,47 @@ print(type(type_casting))
 # print("float to string",f"{str(8.9)}")
 # # means we can use constructor for casting one to another data type!!
 
-# Python String -> anything inside single or double quote 
+# # Python String -> anything inside single or double quote 
 
-print('hello "world" with quote clearation!')
+# print('hello "world" with quote clearation!')
 
-multiline_string = """Lorem Ipsum is simply dummy text of the printing and typesetting 
-industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"""
+# multiline_string = """Lorem Ipsum is simply dummy text of the printing and typesetting 
+# industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+# industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+# industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+# industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"""
 
-print(multiline_string, multiline_string[-1])
+# print(multiline_string, multiline_string[-1])
 
-for l in range(len(multiline_string)):
-    print(multiline_string[l], end=" ")
-    if l == 10:
-        break
+# for l in range(len(multiline_string)):
+#     print(multiline_string[l], end=" ")
+#     if l == 10:
+#         break
 
-print("\n\n")
+# print("\n\n")
 
-if 'typesetting' in multiline_string:
-    print("Yes it is in the string!")
-if 'salam' not in multiline_string:
-    print("it is not in the string!")
+# if 'typesetting' in multiline_string:
+#     print("Yes it is in the string!")
+# if 'salam' not in multiline_string:
+#     print("it is not in the string!")
 
-# string slicing
-print(multiline_string[(len(multiline_string)-5):])
+# # string slicing
+# print(multiline_string[(len(multiline_string)-5):])
 
-# string formatting with modifier
+# # string formatting with modifier
 
-print(f"hello {2000:.4f}")
+# print(f"hello {2000:.4f}")
 
-# small project on string modification
+# # small project on string modification
 
-name = input("Enter you name : ").strip().capitalize()
-print("Hello" + " " +name + " how are you?!".upper())
+# name = input("Enter you name : ").strip().capitalize()
+# print("Hello" + " " +name + " how are you?!".upper())
 
-# easy peasy :)
+# # easy peasy :)
+
+# boolean
+
+print(type(True), "and", type(False))
+print(f"{5 > 7} and {7>5} also {isinstance(4, int)}")
+
+# Boolean is very common in programming. To check if a statement is T or F we can use that
